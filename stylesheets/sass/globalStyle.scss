@@ -1,0 +1,38 @@
+//compileCompressed: ../$1.min.css
+
+//The attribute above is a parameter for the sass-autocompile package
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+
+#navBar{
+  background-color: transparent;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+
+
+  button{
+    float: right;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    margin: 0px 2%;
+    font-size: 1.125em;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .row{
+      padding: 1em 5%;
+      width: 100%;
+    }
+}
