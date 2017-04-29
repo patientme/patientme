@@ -1,0 +1,44 @@
+html,
+body {
+  height: auto;
+  width: auto;
+}
+
+
+.bottomfooter {
+    background: rgb(1, 187, 208);
+}
+
+.glyphicon {
+  font-size: 3.5em;
+  padding: .6em;
+  color: #fff;
+}
+  
+
+
+
+.logo {
+  background: rgb(1, 187, 208);
+  color: #fff;
+  padding: 50px;
+  height:20%;
+}
+
+
+.top-row {
+  padding-top:75px;
+}
+
+.bottom-row {
+
+}
+
+.top-buffer { margin-top:20px; }
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
