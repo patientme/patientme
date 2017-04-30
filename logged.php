@@ -7,7 +7,18 @@ include("includes/head.php"); //implicitly imports includes/directories.php
  <head>
   <?php echo $GLOBAL_HEAD; //in includes/head.php
   echo '<link rel="stylesheet" type="text/css" href="'.getCSS(__FILE__).'">';
-  echo '<script type="text/javascript" src="'.getJS(__FILE__).'"></script>'; ?>
+  echo '
+  <script type="text/javascript" src="'.$JS_DIR.'doctor.js"></script>
+  <script type="text/javascript" src="'.$JS_DIR.'dentist.js"></script>
+  <script type="text/javascript" src="'.$JS_DIR.'optometrist.js"></script>
+  <script type="text/javascript" src="'.getJS(__FILE__).'"></script>
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: "en", includedLanguages: "ar,de,en,es,fr,hi,ja,pa,ru,so,sw,ur,zh-CN",
+     layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");
+  }
+  </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>';
+ ?>
  </head>
    <body>
        <div class="bar topBar container">
@@ -26,7 +37,56 @@ include("includes/head.php"); //implicitly imports includes/directories.php
            </div>
        </div>
      </div>
+     <div class="bar container sideBar">
+        <div class="row"><div class="col-12">Profile</div></div>
+        <div class="row"><div class="col-12">Schedule</div></div>
+        <div class="row"><div class="col-12">Cancellations</div></div>
+        <div class="row"><div class="col-12">Account Settings</div></div>
+        <div id="google_translate_element"></div>
+        <p> Powered by Google Translate</p>
+      </div>
      <div class="mainView">
+       <div class="banner">
+        <h1>Hello Moustafa!</h1>
+        <h3>Your next appointment is just one click away</h3>
+      </div>
+      <div class="container options">
+        <div class="row">
+         	<div class="col-xs-3 text-center">
+              <span class="fa-stack fa-lg" con="doctors">
+                  <i class="fa fa-stack-2x fa-circle-o"></i>
+                  <i class="fa fa-stack-1x fa-medkit"></i>
+              </span>
+          </div>
+    		<div class="col-xs-3 text-center">
+          <?php echo '<img id="tooth" src="'.$IMAGE_DIR.'tooth.png" con="dentists"></img>'; ?>
+        </div>
+    		<div class="col-xs-3 text-center">
+          <span class="fa-stack fa-lg" con="optometrists">
+              <i class="fa fa-stack-2x fa-circle-o"></i>
+              <i class="fa fa-stack-1x fa-eye"></i>
+          </span>
+        </div>
+    		<div class="col-xs-3 text-center">
+          <span class="fa-stack fa-lg" con="blood">
+              <i class="fa fa-stack-2x fa-circle-o"></i>
+              <i class="fa fa-stack-1x fa-tint"></i>
+          </span>
+        </div>
+        </div>
+      </div>
+      <table id="doctors" class="results">
+        <tbody>
+        </tbody>
+      </table>
+      <table id="dentists" class="results">
+        <tbody>
+        </tbody>
+      </table>
+      <table id="optometrists" class="results">
+        <tbody>
+        </tbody>
+      </table>
      </div>
      <div class="bar bottomBar container">
       <div class="row">

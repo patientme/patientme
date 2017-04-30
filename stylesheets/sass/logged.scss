@@ -1,7 +1,27 @@
 //compileCompressed: ../$1.min.css
 
 //The attribute above is a parameter for the sass-autocompile package
-//#282c34
+
+html{
+  opacity: 0;
+}
+
+body{
+  top: 0px !important;
+  padding-bottom: 7rem;
+}
+
+.btn-default{
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+
+  &:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
 
 .bar {
     background-color: #282C34;
@@ -24,6 +44,9 @@
 }
 
 .topBar{
+  top: 0px;
+  z-index: 4;
+
   input{
     background-color: #434548;
     border-radius: 10px;
@@ -58,9 +81,119 @@
     float: right;
 }
 
+.sideBar{
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  right: -40%;
+  z-index: 2;
+  color: #fff;
+  padding: 0px;
+  font-size: 2rem;
+
+  .row{
+    width: 100%;
+    margin: 0px;
+    padding: 1rem 20%;
+    border-bottom: 1px solid #131313;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #3a3e48;
+    }
+  }
+
+  .goog-te-gadget-icon{
+    display: none;
+  }
+
+  .goog-te-gadget-simple{
+    background-color: #434548;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0.55rem 2%;
+    margin-top: 2rem;
+    border: 1px solid #4e4e4e;
+    margin-left: 5%;
+  }
+
+  .goog-te-menu-value{
+    background-color: #434548;
+    font-size: 1.2rem;
+    font-family: "Open Sans Condensed";
+    text-decoration: none;
+    color: #fff !important;
+    box-shadow: 0px 0px 0px;
+    //border: 1px solid #4e4e4e;
+    span{
+      border-left: 0px;
+    }
+  }
+
+  p{
+    margin-left: 5%;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+  }
+}
+
+.goog-te-banner-frame{
+  display: none !important;
+}
+
+.mainView{
+  .banner {
+    padding: 1rem 0px;
+    text-align: center;    color: #fff;
+        padding: 1rem 0px;
+    color: #fff;
+    background-color: #45ADA8;
+  }
+
+  .options{
+    padding: 1rem 2%;
+
+    .row{
+      width: 100%;
+    }
+
+    .fa-stack:hover, #tooth:hover{
+      cursor: pointer;
+      filter: brightness(1.5);
+      -webkit-filter: brightness(1.5);
+    }
+  }
+
+.results{
+    margin: 0 auto;
+    display: none;
+    opacity: 0;
+    .record{
+      background-color: #557B83;
+      border-bottom: 1px solid #3f5b61;
+      td:first-of-type{
+        width: 15%;
+        padding: 1rem;
+        border-right: 1px solid #3f5b61;
+
+        img{
+          border-radius: 200px;
+          width: 100%;
+        }
+
+        &+td{
+          color: #fff;
+          padding: 1rem 0px;
+          width:70%;
+        }
+      }
+    }
+  }
+}
+
 .bottomBar{
   bottom: 0px;
-
+  z-index: 4;
   .fa-map-marker{
     float: right;
   }
@@ -72,7 +205,7 @@
     form{
       padding-top: 1.5rem;
       >.fa-search{
-        right: 7%;
+        right: 10%;
       }
     }
   }
