@@ -1,0 +1,83 @@
+//compileCompressed: ../$1.min.css
+
+//The attribute above is a parameter for the sass-autocompile package
+//#282c34
+
+.bar {
+    background-color: #282C34;
+    padding: 1rem 5%;
+    width: 100%;
+    position: fixed;
+
+    .fa{
+      color: #e8e8e8;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+}
+
+#profilePic {
+    width: 60%;
+    height: auto;
+    border-radius: 300px;
+}
+
+.topBar{
+  input{
+    background-color: #434548;
+    border-radius: 10px;
+    border: 1px solid #4e4e4e;
+    padding: 0.55rem 2%;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #e8e8e8;
+    border-right: 3rem solid #e8e8e8;
+  }
+
+  form{
+    padding-top: 7rem;
+    >.fa-search{
+      position: absolute;
+      z-index: 2;
+      float: right;
+      right: 3%;
+      bottom: 0.8rem;
+      font-size: 1.5rem;
+      color: #282C34;
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.menuIcon {
+    margin-top: 7rem;
+    float: right;
+}
+
+.bottomBar{
+  bottom: 0px;
+
+  .fa-map-marker{
+    float: right;
+  }
+}
+
+//Media Query
+@media screen and (max-width: 900px){
+  .topBar{
+    form{
+      padding-top: 1.5rem;
+      >.fa-search{
+        right: 7%;
+      }
+    }
+  }
+
+  .menuIcon{
+    margin-top: 1.5rem;
+  }
+}

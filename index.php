@@ -14,7 +14,7 @@ include("includes/head.php"); //implicitly imports includes/directories.php
        <div class="row">
          <div class="col-md-4"></div>
          <div class="col-md-8">
-           <button type="button" class="btn btn-default">Log In</button>
+           <button type="button" class="btn btn-default" id="navLogin">Log In</button>
 		       <button type="button" class="btn btn-default">Sign Up</button>
          </div>
        </div>
@@ -44,6 +44,7 @@ include("includes/head.php"); //implicitly imports includes/directories.php
                  <p>Password:</p>
                  <input type="text">
                  <div style="margin: 0 auto; margin-top: 4rem;">
+                   <button class="btn btn-default socialBox" style="display: block;background-color: #2ECC71; border-color: #2ECC71;font-size: 1.3rem;">Login</button>
                    <div class="socialBox" style="background-color: #183a6f;">
                      <i class="fa fa-facebook fa-2x" style="border-right: 1px solid #12294e;"></i>
                      <span>Login with Facebook</span>

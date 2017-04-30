@@ -3,6 +3,10 @@
 //The attribute above is a parameter for the sass-autocompile package
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
+html{
+  font-size: 16px;
+}
+
 body{
   margin: 0px;
   padding: 0px;
@@ -23,7 +27,7 @@ body{
     color: #fff;
     background-color: transparent;
     margin: 0px 2%;
-    font-size: 1.125em;
+    font-size: 1.3rem;
   }
 
   button:hover{
@@ -32,7 +36,25 @@ body{
   }
 
   .row{
-      padding: 1em 5%;
+      padding: 1rem 5%;
       width: 100%;
     }
+}
+
+//Overriding font-awesome defaults
+.fa-2x{
+  font-size: 2rem;
+}
+
+.fa-3x{
+  font-size: 3rem;
+}
+
+//Media Queries
+//Media Queries
+@media screen and (max-width: 900px)
+{
+  html{
+    font-size: 80%;
+  }
 }
