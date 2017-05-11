@@ -22,7 +22,7 @@ var doctor = [
 			"postalCode" : "A1C 2H5",
 			"specialty" : "General",
 			"alternativeLanguage" : "Arabic",
-			"available": "05.05.17 12:00PM"
+			"available": "05.05.17 11:30PM"
 			},
 
 	    {

@@ -1,6 +1,6 @@
 $(function(){
   //Alignment and Responsive design fixes
-  $(".mainView").css({marginTop: (parseInt($(".topBar").css("height"))-1)+"px"});
+  $(".mainView").css({marginTop: (parseInt($(".topBar").css("height"))-2)+"px"});
   $("#tooth").css({height: $(".fa-medkit").css("height")});
   //!!Animations and Toggles!!
   $("html").animate({opacity: "1"}, 1500);
@@ -21,7 +21,7 @@ $(function(){
 
   //Switching between active areas
   var currentArea = $('');
-  $(".fa-stack, #tooth").click(function(){
+  $(".fa-stack, #tooth, .fa-map-marker, .fa-calendar").click(function(){
     var id = $(this).attr("con");
     if(currentArea.length > 0)
     {

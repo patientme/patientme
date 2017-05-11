@@ -87,15 +87,25 @@ include("includes/head.php"); //implicitly imports includes/directories.php
         <tbody>
         </tbody>
       </table>
+      <iframe id="map" class="results" width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJ9cmwy4-jDEsRZ47I9GyFuiw&destination=100%20Elizabeth%20Avenue%2C%20St.%20John's%2C%20NL%2C%20Canada&key=AIzaSyCc95lWK_JULbYTXAJcbZ_SmQkcZQ_ClBI" allowfullscreen></iframe>
+      <table id="calendar" class="results">
+         <tbody>
+           <tr>
+             <td>
+               <img src="assets/images/calendar_1024.png"></img>
+             </td>
+           </tr>
+         </tbody>
+      </table>
      </div>
      <div class="bar bottomBar container">
       <div class="row">
         <div class="col-xs-4">
-          <i class="fa fa-calendar fa-3x"></i>
+          <i class="fa fa-calendar fa-3x" con="calendar"></i>
         </div>
         <div class="col-xs-4"></div>
         <div class="col-xs-4">
-          <i class="fa fa-map-marker fa-3x"></i>
+          <i class="fa fa-map-marker fa-3x" con="map"></i>
         </div>
       </div>
   </div>

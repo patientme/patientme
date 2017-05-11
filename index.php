@@ -25,7 +25,7 @@ include("includes/head.php"); //implicitly imports includes/directories.php
          <tbody>
            <tr>
              <td>
-               <?php echo'<h1><img src="'.$IMAGE_DIR.'logo.png">atient.me</h1>'; ?>
+               <?php echo'<h1><img src="'.$IMAGE_DIR.'logo.png">atientMe</h1>'; ?>
                <h4>Find your care</h4>
              </td>
            </tr>
