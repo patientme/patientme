@@ -10,7 +10,7 @@ var dentist = [
     "phoneNumber" : "(709) 757-6083",
     "alternativeLanguage" : "None",
     "specialty" : "Root Canals",
-    "available" : "02.05.17 09:00AM"
+    "available" : "02.06.17 09:00AM"
     },
 
     {
@@ -24,7 +24,7 @@ var dentist = [
     "phoneNumber" : "(709) 738-2675",
     "alternativeLanguage" : "None",
     "specialty" : "General",
-    "available" : "01.05.17 08:00AM"
+    "available" : "01.06.17 08:00AM"
     },
 
     {
@@ -38,7 +38,7 @@ var dentist = [
     "phoneNumber" : "(709) 738-2675",
     "alternativeLanguage" : "None",
     "specialty" : "General",
-    "available" : "01.05.17 08:00AM"
+    "available" : "01.06.17 08:00AM"
     },
 
     {
@@ -52,5 +52,5 @@ var dentist = [
     "phoneNumber" : "(709) 739-4210",
     "alternativeLanguage" : "None",
     "specialty" : "Pediatric",
-    "available" : "30.04.17 04:00PM"
+    "available" : "30.06.17 04:00PM"
   }]

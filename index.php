@@ -42,16 +42,30 @@ include("includes/head.php"); //implicitly imports includes/directories.php
                  <p>Username:</p>
                  <input type="text"></input>
                  <p>Password:</p>
-                 <input type="text">
+                 <input type="password">
                  <div style="margin: 0 auto; margin-top: 4rem;">
-                   <button class="btn btn-default socialBox" style="display: block;background-color: #2ECC71; border-color: #2ECC71;font-size: 1.3rem;">Login</button>
-                   <div class="socialBox" style="background-color: #183a6f;">
-                     <i class="fa fa-facebook fa-2x" style="border-right: 1px solid #12294e;"></i>
-                     <span>Login with Facebook</span>
+                   <div class="btn btn-default socialBox" style="display: block;background-color: #2ECC71; border-color: #2ECC71;font-size: 1.3rem;">Login</div>
+
+                   <div class="socialBox container" style="background-color: #183a6f;">
+                     <div class="row">
+                       <div class="col-xs-2" style="border-right: 1px solid #12294e; height: 2rem;">
+                         <i class="fa fa-facebook fa-2x"></i>
+                       </div>
+                       <div class="col-xs-9">
+                         <span>Login with Facebook</span>
+                       </div>
+                     </div>
                    </div>
-                   <div class="socialBox" style="background-color: #a02c2c;">
-                     <i class="fa fa-google-plus fa-2x" style="border-right: 1px solid #5f1313;"></i>
-                     <span>Login with Google+</span>
+
+                   <div class="socialBox container" style="background-color: #a02c2c;">
+                     <div class="row">
+                       <div class="col-xs-2" style="border-right: 1px solid #5f1313; height: 2rem;">
+                         <i class="fa fa-google" style="font-size: 1.9rem;"></i>
+                       </div>
+                       <div class="col-xs-9">
+                         <span>Login with Google+</span>
+                       </div>
+                     </div>
                    </div>
 
                  </div>

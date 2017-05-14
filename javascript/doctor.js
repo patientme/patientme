@@ -9,7 +9,7 @@ var doctor = [
 	    "postalCode" : "A1B 3X9",
 	    "specialty" : "General",
 	    "alternativeLanguage" : "None",
-			"available": "30.04.17 03:00PM"
+			"available": "18.05.17 03:00PM"
 	    },
 
 			{
@@ -22,7 +22,7 @@ var doctor = [
 			"postalCode" : "A1C 2H5",
 			"specialty" : "General",
 			"alternativeLanguage" : "Arabic",
-			"available": "05.05.17 11:30PM"
+			"available": "24.05.17 11:30PM"
 			},
 
 	    {
@@ -36,7 +36,7 @@ var doctor = [
 	    "phoneNumber" : "(709) 576-6555",
 	    "specialty" : "General",
 	    "alternativeLanguage" : "None",
-			"available": "01.05.17 10:00AM"
+			"available": "22.05.17 10:00AM"
 			},
 
 	   {
@@ -49,7 +49,7 @@ var doctor = [
     "postalCode" : "A1C 2H5",
     "alternativeLanguage" : "Persain",
     "specialty" : "General",
-		"available": "06.05.17 11:00AM"
+		"available": "06.06.17 11:00AM"
     },
 
 		{
@@ -62,7 +62,7 @@ var doctor = [
 		"postalCode" : "A1B 4S8",
 		"specialty" : "General",
 		"alternativeLanguage" : "None",
-		"available": "28.05.17 09:00AM"
+		"available": "28.06.17 09:00AM"
 	},
 
     {
@@ -75,7 +75,7 @@ var doctor = [
     "postalCode" : "A1A 4A5",
     "alternativeLanguage" : "Hindi",
     "specialty" : "Prenatal care",
-		"available": "22.05.17 08:00AM"
+		"available": "22.06.17 08:00AM"
     },
 
     {
@@ -88,6 +88,6 @@ var doctor = [
     "postalCode" : "A1E 2E2",
     "specialty" : "General",
     "alternativeLanguage" : "Mandarin",
-		"available": "22.05.17 10:00AM"
+		"available": "27.06.17 10:00AM"
     }
 ]

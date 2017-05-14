@@ -56,10 +56,34 @@ body{
 }
 
 //Media Queries
-//Media Queries
+
+/*
+  w<768px for mobile phones and small tablets (xs)
+  768px<w<992px for tablets (sm)
+  992px<w<1200px for small desktops (md)
+  1200px<w for big desktops (lg)
+
+  *ORDER OF MEDIA QUERIES MATTERS
+*/
+
 @media screen and (max-width: 900px)
 {
   html{
     font-size: 80%;
+  }
+}
+
+
+@media screen and (max-width: 550px)
+{
+  html{
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+  html{
+    font-size: 50%;
   }
 }

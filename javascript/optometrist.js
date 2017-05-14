@@ -11,7 +11,7 @@ var optometrist = [
     "phoneNumber" : "(709) 579-1586",
     "alternativeLanguage" : "Arabic",
     "specialty" : "Eyes",
-    "available" : "04.05.17 09:00AM"
+    "available" : "04.06.17 09:00AM"
   },
 
 {
@@ -25,7 +25,7 @@ var optometrist = [
     "phoneNumber" : "(709) 777-3450",
     "alternativeLanguage" : "None",
     "specialty" : "Eyes",
-    "available" : "04.05.17 10:00AM"
+    "available" : "04.06.17 10:00AM"
   },
 
 {
@@ -39,7 +39,7 @@ var optometrist = [
     "phoneNumber" : "(709) 753-3937",
     "alternativeLanguage" : "None",
     "specialty" : "Laser eye surgery",
-    "available" : "25.05.17 11:00AM"
+    "available" : "25.06.17 11:00AM"
     },
 
 {
